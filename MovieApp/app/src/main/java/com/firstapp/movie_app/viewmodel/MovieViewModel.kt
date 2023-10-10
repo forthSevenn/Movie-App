@@ -50,6 +50,8 @@ class MovieViewModel(application: Application) : ViewModel() {
         }, 60000)
     }
 
+    suspend fun checkMovieAvailable() = movieRepo.countAllMovie()
+
     private fun clearDB(){
         CoroutineScope(Dispatchers.IO).launch {
             movieRepo.deleteAll()

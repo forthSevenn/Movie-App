@@ -22,10 +22,11 @@
 
         <TextView
             android:id="@+id/tv_msg"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="20sp"
+            android:maxLines="2"
             android:text="@string/pop_up_message"
             android:textColor="@color/white"/>
 

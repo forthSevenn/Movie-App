@@ -23,6 +23,8 @@ class MovieRepository (application: Application) {
 
     fun getAll() : LiveData<List<Movies>> = movieDao.getAllMovie()
 
+    suspend fun countAllMovie() : Int = movieDao.countMovie()
+
     fun deleteAll() = movieDao.cleanDB()
 
 }
