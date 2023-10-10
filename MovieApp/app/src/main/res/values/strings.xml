@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Movie-App</string>
+    <string name="app_name">Teravin Movie App</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="overview">An exploratory dive into the deepest depths of the ocean of a daring research team spirals into chaos when a malevolent mining operation threatens their mission and forces them into a high-stakes battle for survival.</string>
+    <string name="pop_up_message">popup message</string>
+    <string name="load_movie_btn">Show</string>
 </resources>
